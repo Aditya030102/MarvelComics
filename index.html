@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marvel Comics Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Marvel Comics Gallery</h1>
+    <div class="filter-controls">
+      <label for="filter">Filter by Hero:</label>
+      <select id="filter">
+        <option value="all">All</option>
+        <option value="spiderman">Spider-Man</option>
+        <option value="ironman">Iron Man</option>
+        <option value="thor">Thor</option>
+        <option value="captain">Captain America</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <section id="gallery" class="gallery">
+      <!-- Comic cards inserted by JS -->
+    </section>
+  </main>
+
+  <footer>
+    <button class="action-btn" onclick="shuffleComics()">Shuffle Comics</button>
+    <button class="action-btn" onclick="sortComics()">Sort Alphabetically</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
