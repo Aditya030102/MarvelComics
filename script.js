@@ -1,12 +1,12 @@
 
 // script.js
 const comics = [
-  { title: "Spider-Man: Homecoming", hero: "spiderman", image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FSpider-Man-Homecoming-Junior-Novel-Marvel%2Fdp%2F1504753879&psig=AOvVaw1NXvOu7CQ6FkdoRPrFpVI5&ust=1744570893382000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPCRgJeX04wDFQAAAAAdAAAAABAE" },
-  { title: "Iron Man: Extremis", hero: "ironman", image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FIron-Man-Extremis-Prose-Novel%2Fdp%2F0785165185&psig=AOvVaw2R-erRaVNl-nIC2hKSzHTi&ust=1744570987284000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDRssOX04wDFQAAAAAdAAAAABAE" },
-  { title: "Thor: God of Thunder", hero: "thor", image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fultimatecomics.com%2Fproduct%2Fthor-god-of-thunder-1-125-esad-ribic-variant-jason-aaron-marvel-2012%2F&psig=AOvVaw2nCK3NaQ4GDCgDHJdkuVIw&ust=1744571039246000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODZgtmX04wDFQAAAAAdAAAAABAR" },
-  { title: "Captain America: Winter Soldier", hero: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FCAPTAIN-AMERICA-SOLDIER-COMPLETE-COLLECTION%2Fdp%2F1302927337&psig=AOvVaw0fxbntyOjbDdoMPrYx-VyY&ust=1744571151538000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDTwI6Y04wDFQAAAAAdAAAAABAE" },
-  { title: "Spider-Man: Into the Spider-Verse", hero: "spiderman", image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FSpider-Verse-Christos-Gage%2Fdp%2F0785190368&psig=AOvVaw2VkrsIUIPBlLJVjunof09f&ust=1744571213724000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjtmayY04wDFQAAAAAdAAAAABAE" },
-  { title: "Iron Man: The Invincible", hero: "ironman", image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ebay.com%2Fitm%2F226190657924&psig=AOvVaw3pW7kzzDu4ddWKyA5SS7Nl&ust=1744571245723000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiO9ryY04wDFQAAAAAdAAAAABAE" },
+  { title: "Spider-Man: Homecoming", hero: "spiderman", image: "https://m.media-amazon.com/images/I/61Rltz6BB+L._AC_UF894,1000_QL80_.jpg" },
+  { title: "Iron Man: Extremis", hero: "ironman", image: "https://m.media-amazon.com/images/I/615Dgl+QelL._UF1000,1000_QL80_.jpg" },
+  { title: "Thor: God of Thunder", hero: "thor", image: "https://m.media-amazon.com/images/I/813hHW0KmcL.jpg" },
+  { title: "Captain America: Winter Soldier", hero: "https://i.redd.it/0pf20xs6oxta1.jpg" },
+  { title: "Spider-Man: Into the Spider-Verse", hero: "spiderman", image: "https://m.media-amazon.com/images/I/81fdOe6LbdL._AC_UF1000,1000_QL80_.jpg" },
+  { title: "Iron Man: The Invincible", hero: "ironman", image: "https://i.ebayimg.com/00/s/MTQ0OFg5Mzg=/z/50AAAOSwNIVmaedQ/$_57.JPG?set_id=880000500F" },
 ];
 
 let currentComics = [...comics];
